@@ -12,7 +12,7 @@ categories = ["network-programming", "database"]
 
 [dependencies]
 log = "^0.4"
-quick-xml = "^0.29"
+quick-xml = "^0.30"
 
 [dev-dependencies]
 version-sync = "^0.9"
