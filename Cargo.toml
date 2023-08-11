@@ -1,0 +1,18 @@
+[package]
+name = "xmhell"
+version = "0.1.0"
+edition = "2021"
+authors = ["Ben Maddison <benm@workonline.africa>"]
+description = "A less hellscape-ish XML reader"
+license = "MIT"
+repository = "https://github.com/benmaddison/xmhell"
+readme = "README.md"
+keywords = ["xml", "deserializer"]
+categories = ["network-programming", "database"]
+
+[dependencies]
+log = "^0.4"
+quick-xml = "^0.29"
+
+[dev-dependencies]
+version-sync = "^0.9"
